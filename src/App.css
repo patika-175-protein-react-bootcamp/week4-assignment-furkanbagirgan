@@ -1,0 +1,184 @@
+.dp-flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.dp-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.home {
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 1.4%;
+}
+
+.title svg {
+  padding-left: 1.6%;
+}
+
+.title span {
+  color: #FF0000;
+  font-size: 65px;
+}
+
+.scoreTable {
+  flex-direction: column;
+  align-items: center;
+}
+
+.scoreTable span {
+  font-size: 48px;
+  margin-top: 8%;
+}
+
+.finalButton {
+  align-items: center;
+  margin-top: 11%;
+  margin-bottom: 6%;
+}
+
+.button {
+  align-items: center;
+  margin-top: 3.4%;
+  margin-bottom: 6%;
+}
+
+.button svg,.finalButton svg {
+  position: relative;
+}
+
+.button a,.finalButton a {
+  position: absolute;
+  text-decoration: none;
+  font-size: 48px;
+}
+
+.tour {
+  position: relative;
+}
+
+.question {
+  position: absolute;
+}
+
+.question svg {
+  position: relative;
+  margin-left: 12%;
+  margin-top: 10%;
+}
+
+.question span {
+  position: absolute;
+  left: 23%;
+  top: 32%;
+  font-size: 80px;
+}
+
+.choicePanel {
+  position: absolute;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 15%;  
+}
+
+.choices {
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 30%;
+  padding-right: 12%;
+}
+
+.choice {
+  align-items: center;
+}
+
+.choice1 {
+
+}
+
+.choice2 {
+  margin-top: 50%;
+  margin-right: 20%;
+}
+
+.choice3 {
+  margin-top: 15%;
+  padding-right: 10%;
+}
+
+.choice svg {
+  position: relative;
+}
+
+.choice span {
+  cursor: pointer;
+  position: absolute;
+  font-size: 60px;
+}
+
+.scorePanel {
+  position: absolute;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 2.5%;
+}
+
+.scores {
+  justify-content: space-between;
+  width: 45.5%;
+  padding-right: 1.5%;
+}
+
+.scorePanel span {
+  font-size: 35px;
+}
+
+.outcome {
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-top: 3%;
+}
+
+.finalScores {
+  flex-direction: column;
+  align-items: center;
+}
+
+.allQuestions {
+  display: flex;
+  flex-direction: column;
+}
+
+.questionTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.questionPanel {
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.questionPanel .span1 {
+  display: flex;
+  padding-left: 15%;
+  font-size: 38px;
+  width: 70%;
+}
+
+.questionPanel .span2 {
+  display: flex;
+  justify-content: flex-start;
+  width: 30%;
+}

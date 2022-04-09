@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+body {
+  background-color: #2D2D2D;
+  margin: 0;
+  font-family: 'Handlee';
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
