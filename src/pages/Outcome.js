@@ -11,11 +11,15 @@ function Outcome() {
   //the questions and results data is taken over the context.
   const {tourScores,resetTour,questions,results} = useScore();
   const [scores,setScores] = useState({});
+  const [tourQuestions,setTourQuestions] = useState([]);
+  const [tourResults,setTourResults] = useState([]);
 
   //Here, tour data is transferred to state without resetting and it saves this data to local storage.
   //Finally, it resets the tour data.
   useEffect(()=>{
     setScores(tourScores);
+    setTourQuestions(questions);
+    setTourResults(results);
     saveScores();
     resetTour();
   },[]);
@@ -40,7 +44,7 @@ function Outcome() {
       </div>
       <div className="allQuestions">
         <Title title="All Questions" isSmall={false} width="380"  height="10"/>
-        <QuestionTable questions={questions} results={results}/>
+        <QuestionTable questions={tourQuestions} results={tourResults}/>
       </div>
     </div>
   );
