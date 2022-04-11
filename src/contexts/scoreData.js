@@ -76,6 +76,8 @@ const ScoreProvider = ({ children }) => {
 
   //Here, the existing lap scores are reset and the number of laps is increased by 1 to start a new round.
   const resetTour = () => {
+    setQuestions([]);
+    setResults([]);
     setTourScores((prev) => {
       let newScores = { ...prev };
       newScores.point = 0;
